@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  margin: 0 auto;
+  max-width: 144rem;
+  padding: 25px 36px;
+  background-color: rgba(88, 93, 95, 0.05);
+}
+
+.header-logo a {
+  font-size: 25px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #0a171c;
+}
+
+.header-links a {
+  text-decoration: underline;
+
+  margin-left: 16px;
+  padding: 0.6rem 0;
+  float: right;
+
+  color: #0a171c;
+
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.header-links a:hover {
+  text-decoration: none;
+}
