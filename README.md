@@ -1,53 +1,22 @@
-# Welcome to Remix!
+# Cópia da Página Inicial do Untools
 
-- [Remix Docs](https://remix.run/docs)
+## Visão Geral
 
-## Development
+[ATER](https://software-ater.com.br) é um projeto que aborda uma crítica social e institucional, focando na influência da inteligência artificial no mapeamento e na promoção de artistas racializados (negros e indígenas) brasileiros nas redes sociais e em instituições de arte. O projeto investiga e discute os impactos teóricos e práticos dessas tecnologias na disseminação da produção artística desses grupos.
 
-From your terminal:
+Em 2023, tive a oportunidade de contribuir para este projeto significativo desenvolvendo uma página web dinâmica. Esta página está integrada ao software de pesquisa do projeto e serve como um portal interativo para explorar suas ideias e descobertas.
 
-```sh
-npm run dev
-```
 
-This starts your app in development mode, rebuilding assets on file changes.
+Este repositório contém um projeto pessoal que desenvolvi para aprimorar minhas habilidades em desenvolvimento frontend. O projeto envolveu a recriação da página inicial do site [Untools](untools.co) untools.co, utilizando RemixJS, TypeScript e CSS. O objetivo era entender melhor o funcionamento do RemixJS e aprimorar meu conhecimento em construção de interfaces web. 
 
-## Deployment
+## Características
 
-First, build your app for production:
+- Recriação de Interface
+- Uso de RemixJS:
+- Estilização com CSS
 
-```sh
-npm run build
-```
+## Tecnologias Utilizadas
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+- TypeScript
+- Remix.JS
+- CSS
